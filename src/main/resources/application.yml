@@ -1,0 +1,5 @@
+spring:
+  jpa:
+    show-sql: false
+    database-platform: com.shawn.cosmosetest.sqlite.SQLiteDialect
+    generate-ddl: true
